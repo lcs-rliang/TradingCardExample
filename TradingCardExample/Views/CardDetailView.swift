@@ -19,14 +19,52 @@ struct CardDetailView: View {
                 
             }
             
-            // Character
+            // Character name
             Text("😎")
                 .font(Font.custom("Helvetica", size: 144.0, relativeTo: .largeTitle))
             
-            // Force vertical width as high as possible
+            Group {
+
+                // Style
+                Text("Style")
+                    .font(.title2.smallCaps())
+                    .fontWeight(.bold)
+                
+                // Style description
+                Text("A sunny disposition, Mr. Sunglasses likes to cruise the highways of California in his vintage convertible.")
+                
+                // Age
+                Text("Age")
+                    .font(.title2.smallCaps())
+                    .fontWeight(.bold)
+                
+                // Age description
+                Text("27")
+
+                // Height
+                Text("Height")
+                    .font(.title2.smallCaps())
+                    .fontWeight(.bold)
+                
+                // Height description
+                Text("180 cm")
+
+                // Height
+                Text("Sign")
+                    .font(.title2.smallCaps())
+                    .fontWeight(.bold)
+                
+                // Height description
+                Text("Pisces")
+
+            }
+            
+            // Push content up in the card
             Spacer()
             
         }
+        // Give all elements inside the VStack a bit of padding
+        .padding()
         // Background
         .background(
             Color("Peach")
@@ -42,12 +80,16 @@ struct CardDetailView: View {
         )
         // Move in from edges
         .padding()
+        // Nav title
+        .navigationTitle("Mr. Sunglasses")
 
     }
 }
 
 struct CardDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        CardDetailView()
+        NavigationView {
+            CardDetailView()
+        }
     }
 }
