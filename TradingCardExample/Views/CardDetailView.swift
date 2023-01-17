@@ -27,6 +27,10 @@ struct CardDetailView: View {
             Spacer()
             
         }
+        // Background
+        .background(
+            Color("Peach")
+        )
         // Trim sharp edges of VStack box
         .clipShape(
             RoundedRectangle(cornerRadius: 25)
