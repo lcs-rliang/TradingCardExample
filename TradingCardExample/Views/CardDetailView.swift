@@ -31,6 +31,7 @@ struct CardDetailView: View {
                     .fontWeight(.bold)
                 
                 // Style description
+                // "description"
                 Text("Having a sunny disposition, Mr. Sunglasses likes to cruise the highways of California in his vintage convertible.")
                 
                 // Age
@@ -50,11 +51,13 @@ struct CardDetailView: View {
                 Text("180 cm")
 
                 // Height
+                // Sihn
                 Text("Sign")
                     .font(.title2.smallCaps())
                     .fontWeight(.bold)
                 
                 // Height description
+                //Sign description
                 Text("Pisces")
 
             }
@@ -81,6 +84,7 @@ struct CardDetailView: View {
         // Move in from edges
         .padding()
         // Nav title
+        // "name"
         .navigationTitle("Mr. Sunglasses")
 
     }
