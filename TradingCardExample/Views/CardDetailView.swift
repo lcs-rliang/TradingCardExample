@@ -31,7 +31,7 @@ struct CardDetailView: View {
                     .fontWeight(.bold)
                 
                 // Style description
-                Text("A sunny disposition, Mr. Sunglasses likes to cruise the highways of California in his vintage convertible.")
+                Text("Having a sunny disposition, Mr. Sunglasses likes to cruise the highways of California in his vintage convertible.")
                 
                 // Age
                 Text("Age")
