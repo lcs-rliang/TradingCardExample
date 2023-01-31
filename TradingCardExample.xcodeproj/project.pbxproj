@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4CBCB6BB2976ED7500AFD815 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCB6BA2976ED7500AFD815 /* Card.swift */; };
+		4CBCB6BD2976F56500AFD815 /* Listview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBCB6BC2976F56500AFD815 /* Listview.swift */; };
 		81715ED92976DCAB00D4B83B /* TradingCardExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81715ED82976DCAB00D4B83B /* TradingCardExampleApp.swift */; };
 		81715EDD2976DCAD00D4B83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81715EDC2976DCAD00D4B83B /* Assets.xcassets */; };
 		81715EE02976DCAD00D4B83B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81715EDF2976DCAD00D4B83B /* Preview Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		4CBCB6BA2976ED7500AFD815 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4CBCB6BC2976F56500AFD815 /* Listview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listview.swift; sourceTree = "<group>"; };
 		81715ED52976DCAB00D4B83B /* TradingCardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81715ED82976DCAB00D4B83B /* TradingCardExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardExampleApp.swift; sourceTree = "<group>"; };
 		81715EDC2976DCAD00D4B83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				81715EE72976DCDA00D4B83B /* CardDetailView.swift */,
+				4CBCB6BC2976F56500AFD815 /* Listview.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CBCB6BD2976F56500AFD815 /* Listview.swift in Sources */,
 				81715ED92976DCAB00D4B83B /* TradingCardExampleApp.swift in Sources */,
 				4CBCB6BB2976ED7500AFD815 /* Card.swift in Sources */,
 				81715EE82976DCDA00D4B83B /* CardDetailView.swift in Sources */,
